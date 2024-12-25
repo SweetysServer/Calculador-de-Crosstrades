@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Crosstrades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Calculadora de Crosstrades</h1>
+    </header>
+
+    <section class="formulario">
+      <label for="jogo">Escolha um Jogo:</label>
+      <select id="jogo">
+        <option value="adopt_me">Adopt Me</option>
+        <option value="murder_mystery_2">Murder Mystery 2</option>
+        <option value="pet_simulator">Pet Simulator</option>
+        <option value="marretao">Marretão</option>
+        <option value="da_hood">Da Hood</option>
+        <option value="anime_defenders">Anime Defenders</option>
+        <option value="blade_ball">Blade Ball</option>
+      </select>
+
+      <label for="tipo">Escolha o tipo:</label>
+      <select id="tipo">
+        <option value="conta">Conta</option>
+        <option value="produto">Produto</option>
+      </select>
+
+      <button id="calcular">Calcular Valor</button>
+    </section>
+
+    <section id="resultado" class="hidden">
+      <h2>Resultado:</h2>
+      <p id="mensagem"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
